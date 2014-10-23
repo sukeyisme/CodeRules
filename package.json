@@ -1,0 +1,21 @@
+{
+  "main": "main.html",
+  "name": "PrivateWorkPlatform",
+  "description": "私募工作平台",
+  "version": "0.1.0",
+  "window": {
+    "title": "私募工作平台",
+    //"icon": "ico/GGRemote.png",
+    "toolbar": false,
+    "frame": false,
+    "min_width": 600,
+    "min_height": 400,
+    /*"position": "center",*/
+    "resizable": false//,
+   // "show": false
+  },
+  "webkit":{
+  "plugin" : true
+  }//,
+  //"snapshot": "coderules.bin"
+}

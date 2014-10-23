@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <script src = "javascript_style_rules.js"></script>
+    <script>
+      document.write(Show());
+      require('nw.gui').Window.get().showDevTools();
+      var path = './';
+      var fs = require('fs');
+
+      fs.watch(path, function() {
+        if (location)
+          location.reload();
+      }); 
+    </script>
+  </body>
+</html>
